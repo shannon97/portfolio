@@ -15,7 +15,7 @@ function HomePage() {
                     <img src="/imgs/sofa.jpg" alt="Sofa" className="max-w-xs md:max-w-sm lg:max-w-md rounded-lg shadow-lg" />
                 </div>
 
-                <div className="flex-1 flex flex-col justify-center items-start space-y-4">
+                <div className="flex-1 flex flex-col justify-center items-center space-y-4">
                     {/* Name Image */}
                     <img src="/imgs/name.png" alt="Name" className="w-full mb-5" />
 
