@@ -2,13 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,500;0,700;1,200;1,300;1,500;1,700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
 html {
   scroll-behavior: smooth;
 }
-
 body {
   font-family: 'Raleway', sans-serif;
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  white-space: nowrap;
+  animation: scroll 60s linear infinite;
 }
