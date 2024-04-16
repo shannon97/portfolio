@@ -114,10 +114,12 @@ const HomePage = () => {
             <div className="section flex flex-col items-center justify-center min-h-screen" style={{ background: 'linear-gradient(to top left, white 45%, #ffe2c0 55%)' }}>
               <div className="container mx-auto px-5 py-12 bg-white bg-opacity-30 backdrop-filter backdrop-blur-sm rounded-lg p-4">
                 <img src="/imgs/work.png" alt="Work" className="w-1/2 md:w-1/3 mb-5 mx-auto" />
-                <a href="https://github.com/shannon97" target="_blank" rel="noopener noreferrer"
-                  className="bg-orange-400 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded mb-4">
-                  Visit My GitHub
-                </a>
+                <div className="flex justify-center items-center py-4">
+                  <a href="https://github.com/shannon97" target="_blank" rel="noopener noreferrer"
+                    className="bg-orange-400 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded mb-4">
+                    Visit My GitHub
+                  </a>
+                </div>
                 <div className="w-full overflow-hidden">
                   <div className="flex gap-4 animate-scroll">
                     <img src="/imgs/project1.png" alt="Project 1" className="min-w-full" />
@@ -128,6 +130,7 @@ const HomePage = () => {
                 </div>
               </div>
             </div>
+
 
 
             {/* Section 4 - Contact */}
