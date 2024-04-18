@@ -6,21 +6,25 @@ const sections = [
     {
         title: "Personal Summary",
         content: [
-            "I'm a creative soul with a passion for technology and a drive to explore the world. My journey in tech brings a new learning opportunity every day.",
-            "I'm currently honing my coding skills through the She Codes Plus Program, and I aspire to make a mark in IT. When I'm not coding, you can find me planning my next travel adventure—I'm always ready for a new experience!"
+            "I'm a creative soul with a passion for technology and a drive to explore the world.", 
+            "My journey in tech brings a new learning opportunity every day. I'm currently honing my coding skills through the She Codes Plus Program, and I aspire to make a mark in IT.", 
+            "When I'm not coding, you can find me planning my next travel adventure — I'm always ready for a new experience! (or planning a regular return trip to my favourite place in the world; Japan!)"
         ]
     },
     {
         title: "Professional Summary",
         content: [
-            "Need someone to boost your team’s technical expertise? I’m your person! With a diverse background that spans eLearning, ICT helpdesks, team management, and customer service, I thrive in dynamic settings.",
-            "My strong communication skills, keen eye for detail, and teamwork spirit are my strengths. I’m passionate about resolving challenges, delighting customers, and enhancing workplace efficiency. You can count on me to bring energy and professionalism to every project."
+            "Need someone to boost your team’s technical expertise? I’m your person!",
+            "With a diverse background that spans eLearning, ICT helpdesks, team management, and customer service, I thrive in dynamic settings.",
+            "My strong communication skills, keen eye for detail, and teamwork spirit are my strengths. I’m passionate about resolving challenges, delighting customers, and enhancing workplace efficiency.", 
+            "You can count on me to bring energy and professionalism to every project."
         ]
     },
     {
         title: "Key Attributes",
         content: [
             "System Expertise: I ensure systems are set up flawlessly for optimal use.",
+            "",
             "Problem Solver: I excel at diagnosing and addressing complex problems before they escalate.",
             "Training Enhancement: I create educational materials that elevate the user experience.",
             "Efficient Multitasker: I effectively juggle multiple tasks without missing a beat.",
