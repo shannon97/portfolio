@@ -11,18 +11,18 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-100% / 4 * 3)); 
-  }
-}
-
 .animate-scroll {
   display: flex;
   white-space: nowrap;
   animation: scroll 40s linear infinite;
+  width: auto;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
